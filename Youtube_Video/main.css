@@ -133,9 +133,12 @@ nav {
 }
 
 /* Video */
+#video{
+  position: relative;
+}
+
 #video iframe{
   width: 100%;
-
 }
 
 #video-title{
@@ -170,6 +173,14 @@ nav {
 .info-menu button svg{
   width: 24px;
   height: 24px;
+  fill: #909090;
+  padding-right: 4px;
+}
+
+.info-menu button span{
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(96, 96, 96);
 }
 
 /* Description */
@@ -192,7 +203,6 @@ nav {
   border-radius: 50%;
   margin-right: 16px;
 }
-
 
 .channel-info h1{
   font-size: 14px;
@@ -229,10 +239,11 @@ nav {
 .description-body p {
   font-size: 14px;
   font-weight: 400;
+  margin-bottom: 0;
 }
 
-
 #show-more{
+  padding: 0;
   margin-top: 8px;
   background: transparent;
   color: rgb(96, 96, 96);
@@ -243,9 +254,159 @@ nav {
   line-height: 21px;
   text-transform: uppercase;
 }
+
 /* Comment */
+.comments-header{
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.comments-header h2{
+  font-size: 16px;
+  font-weight: 500;
+  align-items: center;
+  align-self: flex-start;
+  display: inline-block;
+  padding-right: 32px;
+}
+
+.comments-header svg{
+  width: 24px;
+  height: 24px;
+  padding-right: 8px;
+}
+
+.comments-header span{
+  color: rgb(96, 96, 96);
+}
+
+.comment-form{
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.comment-form img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.comment-form input{
+  flex: 1;
+  border: none;
+  padding-bottom: 4px;
+  border-bottom: 1px solid;
+  border-color: lightgray;
+  background-color: transparent;
+}
+
+.comments-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-unit{
+  display: flex;
+}
+
+.commenter-avatar img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.comment-info{
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-header{
+  display: flex;
+  margin-bottom: 2px;
+}
+
+.comment-header h2{
+  font-size: 13px;
+  margin: 0;
+  padding-right: 4px;
+}
+
+.comment-header span{
+  color: rgb(96, 96, 96);
+  font-size: 13px;
+  align-items: center;
+  margin: 0;
+
+}
+
+.comment-action{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.comment-action button{
+  border: none;
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.comment-action svg{
+  width: 24px;
+  height: 24px;
+  padding-right: 8px;
+  fill: #909090;
+}
+
+.comment-action button span{
+  color: rgb(96, 96, 96);
+}
 
 /* Sidebar */
 
-/* Preview */
+.sidebar{
+  margin-top: 20px;
+  display: flex;
+  height: 100%;
+  width: 150%;
+}
 
+.video-thumbnail img{
+  padding-right: 10px;
+}
+.preview-container{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.preview-container a{
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.preview-metadata{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.video-title{
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(3, 3, 3);
+
+}
+
+.secondary-metadata{
+  font-size: 13px;
+  font-weight: 400;
+  color: rgb(96, 96, 96);
+  width: 100%;
+}
