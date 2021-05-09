@@ -10,19 +10,29 @@
 
   <body>
     <nav>
-      <div class="prompt">
-        <p>Already have an Intuit account?</p>
-        <p><a href="">I forgot my User ID or Password</a></p>
+      <div class="prompt-bar">
+        <div class="prompt-text">
+          <p>Already have an Intuit account?</p>
+          <p><a href="">I forgot my User ID or Password</a></p>  
+        </div>
+        <div class="prompt-button">
+          <button class="signin" name="submit">
+            <span></span>
+            Sign In
+          </button>
+        </div>
       </div>
-      <button class="signin" name="submit">Sign In</button>
     </nav>
 
     <header>
       <a href="" id="logo"></a>
       <ul class="links">
-        <li class="mint-logo"></li>
-        <li class="quickbooks-logo"></li>
-        <li class="turbotax-logo"></li>
+        <span id="mint-logo"></span>
+        <li id="mint"></li>
+        <span id="quickbooks-logo"></span>
+        <li id="quickbooks"></li>
+        <span id="turbotax-logo"></span>
+        <li id="turbotax"></li>
       </ul>
     </header>
 
