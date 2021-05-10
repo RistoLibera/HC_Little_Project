@@ -15,6 +15,12 @@ nav {
   height: 60px;
 }
 
+footer {
+  text-align: center;
+  font-size: 12px;
+  padding: 20px 0;
+}
+
 .prompt-bar {
   font-size: 12px;
   line-height: 1.5;
@@ -143,7 +149,7 @@ header a {
 
 .wrapper-header p, a {
   color: #393A3D;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 300;
   line-height: 1.2;
 }
@@ -181,4 +187,70 @@ header a {
   background-position: 95% 50%;
   border: 1px solid #c1c5c8;
   border-radius: 3px;
+}
+
+.submit {
+  background: linear-gradient(to bottom, #167CCC 0%, #0077C5 100%);
+  border-color: #0077C5;
+  width: 100%;
+  height: 44px;
+  min-width: 100px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit span {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMjAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04IDBDMTAuNzk1NiAwIDEyLjg5MjkgMi4xODQxNyAxMi45OTYgNS4yNjE1NEwxMyA1LjVWN0gxNEMxNS4xMDQ2IDcgMTYgNy44OTU0MyAxNiA5VjE4QzE2IDE5LjEwNDYgMTUuMTA0NiAyMCAxNCAyMEgyQzAuODk1NDMgMjAgMCAxOS4xMDQ2IDAgMThWOUMwIDcuODk1NDMgMC44OTU0MyA3IDIgN0gzVjUuNUMzIDIuMjk3NjEgNS4xMzI3MiAwIDggMFpNMTQgOUgyVjE4SDE0VjlaTTggMTFDOS4xMDQ1NyAxMSAxMCAxMS44OTU0IDEwIDEzQzEwIDEzLjczOTggOS41OTgyOCAxNC4zODU4IDkuMDAxMDggMTQuNzMxOEw5IDE1LjJDOSAxNS42NDE4IDguNTUyMjggMTYgOCAxNkM3LjQ4NzE2IDE2IDcuMDY0NDkgMTUuNjkxMiA3LjAwNjczIDE1LjI5MzNMNyAxNS4yTDYuOTk5OTMgMTQuNzMyNEM2LjQwMjE3IDE0LjM4NjYgNiAxMy43NDAzIDYgMTNDNiAxMS44OTU0IDYuODk1NDMgMTEgOCAxMVpNOCAyQzYuMzMxNTMgMiA1LjA4ODI2IDMuMjc3NDEgNS4wMDQ1IDUuMjgyNDJMNSA1LjVWN0gxMVY1LjVDMTEgMy4zNzAyOCA5LjcyODA2IDIgOCAyWiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 16px;
+  margin-top: 0;
+  margin-right: 6px;
+  vertical-align: text-top;
+  display: inline-block;
+}
+
+.submit p {
+  font-size: 1.125em;
+  text-shadow: none;
+  font-weight: normal;
+  color: #FFF;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  margin: 0;
+}
+
+#policy {
+  font-size: 12px;
+  font-style: italic;
+  color: #757575;
+  text-align: center;
+  padding-top: 10px;
+  line-height: 1.5;  
+}
+
+.wrapper-bottom {
+  line-height: 1.5;
+  font-size: 10px;
+  color: #8d9096;
+  font-weight: normal;
+  margin: 32px -30px -30px -30px;
+  padding: 16px;
+  text-align: center;
+  background-color: #eceef1;  
+}
+
+footer ul{
+  display: flex;
+  justify-content: center;
+}
+
+footer ul li{
+  display: inline-block;
+  margin: 0 10px;
 }
