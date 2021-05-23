@@ -65,3 +65,113 @@ nav {
   margin-right: 10px;
   padding: 8px 9px;
 }
+
+#content {
+  padding-top: 50px;
+}
+
+.article-top {
+  display: block;
+}
+
+#article-title {
+  margin-bottom: 20px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  color: #121212;
+  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.sms-buttons {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.sms-buttons li {
+  color: #999;
+  display: inline;
+  margin-right: 16px;
+  vertical-align: center;
+}
+
+/* .sms-buttons li svg {
+  padding: 5px;
+  width: 15px;
+  height: 15px;
+} */
+
+.sms-buttons li button {
+  border: none;
+  background-color: rgb(255, 255, 255);
+  vertical-align: middle;
+  padding: 0;
+}
+
+#whatsapp-share {
+  padding: 5px;
+  width: 15px;
+  height: 15px;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 100%;
+  background-image: url(https://www.nytimes.com/vi-assets/static-assets/icon-whatsapp-17x17-000-b100d38495ee541e2e4f30bcaf9bfe0c.svg);
+}
+
+.css-1pv1u79 {
+  -moz-box-align: center;
+  align-items: center;
+  background: transparent none repeat scroll 0% 0%;
+  border: 1px solid rgb(102, 102, 102);
+  border-radius: 4px;
+  display: flex;
+  -moz-box-pack: center;
+  justify-content: center;
+  min-width: 26px;
+  min-height: 14px;
+  padding: 4px;
+  position: relative;
+  width: auto;
+}
+
+.css-1pv1u79::before {
+  border-color: rgb(102, 102, 102) transparent;
+  border-style: solid;
+  bottom: -7px;
+  border-width: 6px 0px 0px 8px;
+  content: "";
+  display: block;
+  left: 15px;
+  position: absolute;
+  width: 0px;
+}
+
+.css-1pv1u79::after {
+  border-color: rgb(255, 255, 255) transparent;
+  border-style: solid;
+  border-width: 6px 0px 0px 6px;
+  bottom: -6px;
+  content: "";
+  display: block;
+  left: 16px;
+  position: absolute;
+  width: 0px;
+}
+
+.css-1dtr3u3 {
+  color: rgb(0, 0, 0);
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  margin-top: auto;
+}
+
