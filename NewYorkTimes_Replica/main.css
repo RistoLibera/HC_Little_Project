@@ -775,3 +775,82 @@ nav {
 #blank-part {
   visibility:hidden
 }
+
+#lists {
+  padding: 0px 3%;
+}
+
+#lists header {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+}
+
+#logo {
+  display: block;
+  height: 44px;
+  width: 184px;
+}
+
+#homepage {
+  color: rgb(86, 123, 149);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px;
+  text-decoration: none;
+}
+
+.high-links {
+  border-top: 1px solid rgb(235, 235, 235);
+  font-size: 13px;
+  font-weight: 700;
+  height: 44px;
+  letter-spacing: 0.04rem;
+  line-height: 44px;
+  text-transform: uppercase;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  color: rgb(51, 51, 51);
+  margin: 0px;
+  cursor: pointer;
+}
+
+#disclaimer {
+  padding: 0 3% 45px;
+  border-top: 1px solid #ebebeb;
+  padding-top: 9px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#disclaimer a {
+  color: #666;
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  padding: 10px 0;
+  font-size: 11px;
+  text-align: center;
+}
+
+.contacts {
+  list-style: none;
+  display: flex;
+  margin: 0 0 15px;
+  padding: 0;
+}
+
+.contact-link {
+  display: inline-block;
+  line-height: 20px;
+  padding: 0 10px;
+}
+
+.contact-link a {
+  color: #666;
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  padding: 10px 0;
+  text-decoration: none;
+  white-space: nowrap;  
+}
+
