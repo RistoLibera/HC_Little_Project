@@ -1,0 +1,27 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.page-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: rgba(255,255,255,var(--bg-opacity));
+  box-shadow: 0 0 48px rgba(0,0,0,.15);
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  outline: none;
+}
+
+#homepage-logo {
+  display: block;
+  height: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  width: 4.125rem;  
+}
