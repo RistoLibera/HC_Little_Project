@@ -239,3 +239,75 @@
   cursor: pointer;
 }
 
+.popular {
+  padding: 4em 0;
+  display: block;
+  margin: 1em auto;
+}
+
+#popular-header {
+  margin-bottom: 4rem;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;  
+}
+
+#popular-header h3 {
+  color: #a7aab2;
+  text-align: center;
+  flex: 1 1 0%;
+  line-height: 1.5;
+  font-weight: 800;
+  letter-spacing: .01em;  
+  text-transform: uppercase;
+  font-size: 2.3rem;
+  font-family: "Trump Soft Pro", sans-serif;
+  transform: scale(1, 0.8);
+}
+
+.trending {
+  padding: 0 3em;
+}
+
+.trending ol {
+  display: grid;
+  margin: 1.5rem;
+  gap: 1.5rem;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: 1fr;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.trending ol li {
+  display: flex;
+  flex-direction: row;
+}
+
+.trending ol li span {
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0;
+  font-size: 38px;
+  color: rgba(204,0,153,1);
+  font-family: "Trump Soft Pro",sans-serif;
+}
+
+.trending ol li h4 {
+  padding: 0 1rem;
+  line-height: 1.5;
+  font-feature-settings: "ss01" 1,"ss02" 1,"ss03" 1;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  color: #222;
+  font-size: 15px;
+}
+
+.trending ol li h4:hover {
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 149, 250, 0.9);
+  text-decoration-thickness: 2px;
+  cursor: pointer;
+}
+
