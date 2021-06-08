@@ -18,6 +18,10 @@ img{
   max-height: 100%;
 }
 
+section {
+  display: block;
+}
+
 .page-header {
   position: sticky;
   top: 0;
@@ -421,5 +425,64 @@ img{
   content: "";
   right: 20px;
   width: 10px;
+}
+
+.news-channels {
+  padding: 7rem 2rem;
+  max-width: 100rem;
+}
+
+.channels {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: 1fr;
+  padding: 1rem 1rem;
+  grid-gap: 16px;
+}
+
+.recommended-channels {
+  text-align: center;
+  padding: 2rem 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.recommended-channels img{
+  display: block;
+  margin-bottom: 5rem;
+  height: 2.5rem;
+  min-width: 120px;
+  max-width: 120px;  
+}
+
+.recommended-channels h4 {
+  font-size: 1rem;
+  color: white;
+  font-weight: 500;
+  line-height: 1.5;
+  font-family: "Graphik",sans-serif;
+}
+
+#channel-1 {
+  background-image: url(https://img-cdn.tnwcdn.com/image?fit=260%2C235&url=https%3A%2F%2Fnext.tnwcdn.com%2Fassets%2Fnext%2Fimg%2Fbackdrop-s-plugged.jpg&signature=4423a77a45ff6281a089424a8dd0bc24);
+}
+
+#channel-2 {
+  background-image: url(https://img-cdn.tnwcdn.com/image?fit=260%2C235&url=https%3A%2F%2Fnext.tnwcdn.com%2Fassets%2Fnext%2Fimg%2Fbackdrop-s-neural.jpg&signature=7b20700b0f58af3860449664ae1a5e68);
+}
+
+#channel-3 {
+  background-image: url(https://img-cdn.tnwcdn.com/image?fit=260%2C235&url=https%3A%2F%2Fnext.tnwcdn.com%2Fassets%2Fnext%2Fimg%2Fbackdrop-s-shift.jpg&signature=1d3ef28f5220f870b7e289810caa80a3);
+}
+
+#channel-4 {
+  background-image: url(https://img-cdn.tnwcdn.com/image?fit=260%2C235&url=https%3A%2F%2Fnext.tnwcdn.com%2Fassets%2Fnext%2Fimg%2Fbackdrop-s-growth-quarters.jpg&signature=72ccfd9e92f942be8ace3526d0dc3aab);
+}
+
+#channel-5 {
+  background-image: url(https://img-cdn.tnwcdn.com/image?fit=260%2C235&url=https%3A%2F%2Fnext.tnwcdn.com%2Fassets%2Fnext%2Fimg%2Fbackdrop-s-hardfork.jpg&signature=77d9941cfc302cb2e25c39ab3043fa7b);
 }
 
