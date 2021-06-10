@@ -486,3 +486,134 @@ section {
   background-image: url(https://img-cdn.tnwcdn.com/image?fit=260%2C235&url=https%3A%2F%2Fnext.tnwcdn.com%2Fassets%2Fnext%2Fimg%2Fbackdrop-s-hardfork.jpg&signature=77d9941cfc302cb2e25c39ab3043fa7b);
 }
 
+.subscription {
+  background: #000;  
+  background-image: url(https://next.tnwcdn.com/assets/next/img/spacesbg.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50%;
+  padding: 4em;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;  
+}
+
+.newsletter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.news-form {
+  width: 100%;
+}
+
+.news-form h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-family: "TNW Avalon",sans-serif;
+  font-weight: 500;
+  letter-spacing: -.025em;
+  line-height: 1;
+  text-transform: none;
+}
+
+.news-form p {
+  width: 100%;
+}
+
+.news-form p a {
+  color: rgba(0,204,204,1);
+  text-decoration: none;
+}
+
+.news-form p a:hover {
+  color: white;
+}
+
+.email-field {
+  margin: 2rem auto;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  border-radius: .25rem;
+  background-color: rgba(255,255,255,1);
+  box-shadow: 0 4px 24px rgba(0,0,0,.25);  
+  /* width: 75%; */
+}
+
+.email-field svg {
+  color: rgba(167,170,178,1);
+  opacity: .5;
+  margin: 0 .75rem;
+  /* order: 1; */
+  height: 20px;
+  width: 20px;  
+  display: block;
+  max-width: 100%;
+  fill: currentColor;
+}
+
+.email-field input {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  width: 100%;
+  padding: .75rem 0;
+  position: relative;
+  display: block;
+  border: none;
+  font-size: 1rem;
+  font-family: "Graphik",sans-serif;
+  color: rgba(80,86,102,1);
+  outline: none;
+
+}
+
+.email-field input::placeholder {
+  color: rgba(167,170,178,1);
+}
+
+.email-field input:focus {
+  outline: none;
+}
+
+.email-field button {
+  border-style: none;
+  appearance: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: .875rem;
+  height: 3rem;
+  padding: 0 .75rem;
+  color: rgba(167,170,178,1);
+  line-height: 1.5;
+}
+
+.socials {
+  display: block;
+}
+
+.socials ul {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 10px;
+}
+
+.fab {
+  color: rgba(197, 197, 197, 0.635);
+}
+
+#social-email {
+  color: rgba(197, 197, 197, 0.635);
+  fill: currentColor;
+  width: 2rem;
+  height: 2rem;
+}
+
