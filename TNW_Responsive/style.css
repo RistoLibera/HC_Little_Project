@@ -605,13 +605,14 @@ section {
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: auto;
   grid-gap: 10px;
+  align-items: center;
 }
 
 .fab {
   color: rgba(197, 197, 197, 0.635);
 }
 
-#social-email {
+.social-email {
   color: rgba(197, 197, 197, 0.635);
   fill: currentColor;
   width: 2rem;
@@ -774,10 +775,12 @@ section {
 }
 
 .goals p {
+  font-family: "Graphik", sans-serif;
   margin-bottom: 2rem;
   font-size: 1.125rem;
   margin-top: 1.5rem;
   color: rgba(80,86,102,1);
+  line-height: 2rem;
 }
 
 .goals a {
@@ -831,3 +834,123 @@ section {
   font-weight: 600;
   color: black;
 }
+
+.links {
+  margin: 1rem 4rem 2rem;
+  max-width: 80rem;
+  position: relative;
+}
+
+.links ul {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.links ul li {
+  opacity: .5;
+}
+
+.only-footer {
+  margin-top: 1rem;
+  padding: 4rem 0;
+  background-color: black;
+  color: white;
+}
+
+.others {
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-footer {
+  display: flex;
+  flex-direction: column;
+  padding-right: 17rem;
+}
+
+.upper-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.upper-content a {
+  display: block;
+  width: 10rem;
+  margin-bottom: 1rem;
+}
+
+.upper-content p {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+#footer-social-email {
+  width: 1.4rem;
+  height: 1.4rem;  
+}
+
+.right-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 5rem;
+}
+
+.right-footer-columns {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-footer-columns h3 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-family: "Trump Soft Pro", sans-serif;
+  font-weight: 700;
+  letter-spacing: .01em;
+  text-transform: uppercase;
+}
+
+.right-footer-columns ul li a{
+  text-decoration: none;
+  color: rgb(0, 0, 238);
+}
+
+.more-column ul {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: auto;
+  grid-gap: 1rem;
+}
+
+.about-tnw ul {
+  display: grid;
+  grid-template-rows: repeat(8, 1fr);
+  grid-template-columns: auto;
+  grid-gap: 1rem;
+}
+
+.copyright {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-color: rgba(80,86,102,1);
+  border-top: 1px rgba(80,86,102,1);
+  border-style: solid;
+  color: rgba(167,170,178,1);
+  font-size: .875rem;
+  line-height: 1.75;
+  text-align: center;
+  font-family: "Graphik",sans-serif;
+}
+
+#financial {
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+
