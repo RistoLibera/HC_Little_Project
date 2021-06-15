@@ -738,3 +738,96 @@ section {
   height: 2rem;
   background: linear-gradient(transparent,#f7f8f8);
 }
+
+.work-with-us {
+  padding: 6em 2em 2em;
+  display: flex;
+  flex-direction: row;
+}
+
+.co-work {
+  flex-basis: 50%;
+  max-width: 50%;
+}
+
+.goals {
+  margin: .75rem;
+  text-align: left;
+}
+
+.goals h6 {
+  margin-bottom: .5rem;
+  letter-spacing: .08em;
+  line-height: 1;
+  text-transform: uppercase;
+  font-family: "Shentox",sans-serif;
+}
+
+.goals h2 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  font-family: "TNW Avalon",sans-serif;
+  font-weight: 500;
+  letter-spacing: -.025em;
+  line-height: 1;
+  text-transform: none;  
+}
+
+.goals p {
+  margin-bottom: 2rem;
+  font-size: 1.125rem;
+  margin-top: 1.5rem;
+  color: rgba(80,86,102,1);
+}
+
+.goals a {
+  color: white;
+  box-shadow: none;
+  background-color: #0cc;
+  padding: 0 1.5rem;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  height: 3rem;  
+  vertical-align: middle;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border-style: none;
+  border-radius: .25rem;
+  font-size: 13px;
+  letter-spacing: .025em;
+  line-height: 48px;
+}
+
+.ideas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-left: 1.1rem;
+}
+
+.groups {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.group-icon {
+  width: 7rem;
+}
+
+.group-info {
+  margin-left: 1rem;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.5;
+  font-family: "Graphik",sans-serif;
+  font-weight: 600;
+  color: black;
+}
