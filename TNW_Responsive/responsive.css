@@ -1,0 +1,44 @@
+
+@media (max-width: 850px) {
+
+ .page-header {
+   display: none;
+ }
+
+  .showcase {
+    padding-top: 4.8rem;
+    margin: 0;
+  }
+
+ .showcase header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  }
+
+  #website-logo {
+    margin: 0;
+    max-width: 42%;
+  }
+
+  #instruction {
+    display: block;
+    width: 25%;
+    margin: 0;  
+    margin-bottom: 1rem;  
+  }
+  
+  #instruction h1 {
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.5;
+  }
+  
+
+
+
+
+
+
+}
