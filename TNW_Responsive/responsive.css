@@ -1,6 +1,10 @@
 
 @media (max-width: 850px) {
 
+  .black-section-title h2{
+    text-align: center;
+  }
+  
  .page-header {
    display: none;
  }
@@ -115,8 +119,93 @@
     margin-bottom: .25rem;
   }
   
+  .news-channels {
+    padding: 7rem 4rem;
+  }
+
+  .channels {
+    padding: 0;
+    margin-top: -1rem;
+    grid-template-columns: repeat(3, minmax(0,1fr));
+  }
+
+  #channel-5 {
+    grid-column: 3;
+    grid-row: 2;
+  }
+
+  .news-form h2 {
+    font-size: 2rem;
+  }
+
+  .videos {
+    padding: 7rem 0;
+  }
+
+  .video-container {
+    display: block;
+  }
+
+  .playlist {
+    position: static;
+    width: auto;
+    margin: 0;
+    padding: .5rem 1rem;
+  }
   
+  .scroller {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: auto;
+  }
+  
+  .waiting-list {
+    display: flex;
+    padding: .5rem;
+    min-width: 224px;
+    flex: 0 0 224px;
+    flex-direction: column;
+  }
 
+  .img-container img {
+    height: auto;
+  }
+    
+  .scroller-fader {
+    display: none;
+  }
 
+  .work-with-us {
+    padding: 6rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .co-work {
+    flex-basis: 100%;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+    
+  .goals h2 {
+    font-size: 1.7rem;
+  }
 
+  .ideas {
+    margin: 0;
+  }
+
+  .groups {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+  }
+
+  .group-icon {
+    margin-bottom: 1rem;
+  }
+  
 }
