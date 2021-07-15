@@ -314,7 +314,6 @@ section {
 .trending ol li h4 {
   padding: 0 1rem;
   line-height: 1.5;
-  font-feature-settings: "ss01" 1,"ss02" 1,"ss03" 1;
   font-weight: 600;
   font-family: "Roboto", sans-serif;
   color: #222;
